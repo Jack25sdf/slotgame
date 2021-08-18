@@ -1,0 +1,65 @@
+body{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/slot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+main{
+    width: 300px;
+    background: #ecf0f1;
+    padding: 20px;
+    border: 8px solid black;
+    border-radius: 12px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.panel img {
+    width: 90px;
+    height: 110px;
+    margin-bottom: 4px;
+    user-select: none;
+}
+
+.stop {
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    background: #ef454e;
+    box-shadow: 0 4px 0 #d1483e;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    user-select: none;
+    margin: 0 auto;
+}
+
+#spin {
+    cursor: pointer;
+    margin: 0 auto;
+    width: 280px;
+    height: 50px;
+    background: rgb(31, 28, 28);
+    box-shadow: 0 4px 0 #4a555a;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    user-select: none;
+}
+
+.unmatched {
+    opacity: 0.5;
+}
+
+.inactive {
+    opacity: 0.5;
+}
